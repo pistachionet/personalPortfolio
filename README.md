@@ -1,4 +1,4 @@
-# This is my Personal Portfolio Website
+# This is my Personal Portfolio Repo
 
 #CV, Socials, and About can be found here.
 
