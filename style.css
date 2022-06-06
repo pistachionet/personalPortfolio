@@ -106,4 +106,65 @@ header{
     color: var(--bg-color);
 
 }
+section{
+    padding: 100px 18%;
 
+}
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 4rem;
+
+
+}
+.home-text h1{
+    margin: 10px 0px 25px;
+    font-size: var(--big-font);
+    line-height: 1;
+    font-weight: 450;
+     
+}
+
+.home-text h5{
+    margin-bottom: 23px;
+    font-size: 19px;
+    font-weight: 450;
+}
+span{
+    color:var(--main-color)
+}
+.home-text h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 450;
+
+}
+
+.home-text p{
+    font-size: var(--p-font);
+    color: var(--secound-color);
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+.social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    background: rgba(128, 103, 240, 1);
+    font-size: 17px;
+    color: var(--bg-color);
+    margin-right: 22px;
+    margin-bottom: 30px;
+}
