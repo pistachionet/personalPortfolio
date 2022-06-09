@@ -315,12 +315,12 @@ header.sticky{
 	color: var(--secound-color);
 	line-height: 28px;
 }
-.spotlight-content{
+.portfolio-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	grid-gap: 2rem;
 	align-items: center;
-	margin-top: 6rem;
+	margin-top: 5rem;
 	text-align: center;
 	cursor: pointer;
 }
@@ -335,6 +335,9 @@ header.sticky{
 	border-radius: 12px;
 }
 
+.col a{
+	text-align:center;
+}
 
 
 .layer{
